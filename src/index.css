@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tv-bg: #ffffff;
+  --color-tv-card: #f8f9fd;
+  --color-tv-hover: #f0f3fa;
+  --color-tv-border: #e0e3eb;
+  --color-tv-textPrimary: #131722;
+  --color-tv-textSecondary: #6a6d78;
+  --color-tv-blue: #2962ff;
+  --color-tv-green: #089981;
+  --color-tv-red: #f23645;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+  color: #131722;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.num-tabular {
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
